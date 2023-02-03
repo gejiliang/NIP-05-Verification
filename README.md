@@ -1,6 +1,6 @@
 # 获取NIP-05认证的中文教程
 
-NIP-05是一项Nostr改进提案，概述了将Nostr密钥映射到基于DNS的互联网标识的过程。这允许用户将他们的Nostr公钥与易读写的互联网地址关联起来，如 “gg@gejiliang.gg”从而让户更容易在Nostr上找到和跟踪他人，以及在Nostr客户端上可以更用户友好地显示用户标识符。
+NIP-05是一项Nostr改进提案，概述了将Nostr密钥映射到基于DNS的互联网标识的过程。这允许用户将他们的Nostr公钥与易读写的互联网地址关联起来，如 “gg@nostrich.gg”从而让户更容易在Nostr上找到和跟踪他人，以及在Nostr客户端上可以更用户友好地显示用户标识符。
 
 目前已经有不少供应商提供免费和收费的NIP-05认证服务，这里选取有代表性的三个：nost.vip、getalby和nostrplebs为例。如果这些满足不了你可以跳转到最后自建认证的部分。
 
@@ -79,7 +79,7 @@ include: [".well-known"]
 
 最后，确保选择 "Enforce HTTPS "选项。这将确保你的网站是通过安全连接提供的，为你的NIP5验证文件提供额外的保护和安全。
 
-可以通过浏览器访问 [https://gejiliang.gg/.well-known/nostr.json](https://xxx.com/.well-known/nostr.json) (gejiliang.gg替换成你自己的域名）来验证是否配置成功。
+可以通过浏览器访问 [https://nostrich.gg/.well-known/nostr.json](https://xxx.com/.well-known/nostr.json) (nostrich.gg替换成你自己的域名）来验证是否配置成功。
 
 最后，就可以把自己的NIP-05标识填写到Nostr的客户端里面去了。
 
