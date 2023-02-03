@@ -2,9 +2,11 @@
 
 NIP-05是一项Nostr改进提案，概述了将Nostr密钥映射到基于DNS的互联网标识的过程。这允许用户将他们的Nostr公钥与易读写的互联网地址关联起来，如 “gg@gejiliang.gg”从而让户更容易在Nostr上找到和跟踪他人，以及在Nostr客户端上可以更用户友好地显示用户标识符。
 
+目前已经有不少供应商提供免费和收费的NIP-05认证服务，这里选取有代表性的三个：nost.vip、getalby和nostrplebs为例。如果这些满足不了你可以跳转到最后自建认证的部分。
+
 ## 使用nost.vip
 
-目前已经有不少供应商提供免费和收费的NIP-05认证服务，最简单的是nost.vip，你只需要将 npubxxxx@nost.vip (npubxxxx为你的公钥) 填写到自己的Profile中NIP-05信息栏中点击保存即可，如下图以 Damus 为例：
+最简单的是nost.vip，你只需要将 npubxxxx@nost.vip (npubxxxx为你的公钥) 填写到自己的Profile中NIP-05信息栏中点击保存即可，如下图以 Damus 为例：
 
 ![NIP-05设置栏](https://nostr.build/i/nostr.build_776d25e68b4f6a47722dfd745f845ba9a3c290296b8b975ced36096bfe66bf5a.png)
 
@@ -30,7 +32,7 @@ NIP-05是一项Nostr改进提案，概述了将Nostr密钥映射到基于DNS的�
 
 ![Untitled](https://nostr.build/i/nostr.build_60dde8c5f40205ff2208d9e7b7bffbe878d4509e124ca3bf06d9e6439f5e48b7.png)
 
-## 使用Snort
+## 使用Snort和Nostrplebs
 
 如果你使用的是Snort客户端，并且想有一些看起来很fancy的认证标签（类似下图带渐变色的nostr.fan），那么在Snort中的Profile设定里点击NIP-05栏旁边的Buy按钮即可跳转到付费购买页面。详情可以在[https://nostrplebs.com/](https://nostrplebs.com/) 查看，不同位数的价格不同，2字符65k聪，越长越便宜，付费是一次性的，也可以更改用户名对应的公钥。其他设置大同小异，这里不再赘述。
 
