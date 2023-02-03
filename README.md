@@ -6,9 +6,11 @@ NIP-05是一项Nostr改进提案，概述了将Nostr密钥映射到基于DNS的�
 
 ## 使用nost.vip
 
-最简单的是nost.vip，你只需要将 npubxxxx@nost.vip (npubxxxx为你的公钥) 填写到自己的Profile中NIP-05信息栏中点击保存即可，如下图以 Damus 为例：
+最简单的是nost.vip这一类的，你只需要将 npubxxxx@nost.vip (npubxxxx为你的公钥) 填写到自己的Profile中NIP-05信息栏中点击保存即可，如下图以 Damus 为例：
 
 ![NIP-05设置栏](https://nostr.build/i/nostr.build_776d25e68b4f6a47722dfd745f845ba9a3c290296b8b975ced36096bfe66bf5a.png)
+
+需要说明的是，此种直接填写公钥的方法并不是所有客户端都支持，如Snort里就不行，Damus和iris.to是可以的。
 
 ## 使用getalby
 
@@ -85,3 +87,4 @@ include: [".well-known"]
 可以通过浏览器访问 [https://gejiliang.gg/.well-known/nostr.json](https://xxx.com/.well-known/nostr.json) (gejiliang.gg替换成你自己的域名）来验证是否配置成功。
 
 最后，就可以把自己的NIP-05标识填写到Nostr的客户端里面去了。
+
