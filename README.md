@@ -83,3 +83,4 @@ include: [".well-known"]
 
 最后，就可以把自己的NIP-05标识填写到Nostr的客户端里面去了。
 
+## 最后的最后欢迎给我打钱！发了几万聪才收到100聪！我的闪电网络地址是：gejiliang@getalby.com
