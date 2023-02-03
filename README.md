@@ -47,7 +47,7 @@ Github Pages是最简单的方式，你只需要有github帐号和1个域名就�
 
 ### 2 创建你的GitHub仓库
 
-建议专门为此目的创建一个新的Github仓库。创建名为".well-known/nostr.json"的新文件。这个文件将保存你的Nostr公钥与你的互联网标识符的映射关系，它是NIP5验证过程中的一个重要组成部分。
+可以直接[点这里fork](https://github.com/gejiliang/NIP-05-Verification/fork)。如果手动创建的话建议专门为此目的创建一个新的Github仓库。创建名为".well-known/nostr.json"的新文件。这个文件将保存你的Nostr公钥与你的互联网标识符的映射关系，它是NIP5验证过程中的一个重要组成部分。
 
 nostr.json中保存的是你的公钥的十六进制格式，以及你想要的标识符的昵称。如果你的公钥是 "npub1... "的格式，你可以用[Damus的工具](http://damus.io/key)将其转换成十六进制。你可以用我的NIP-05作为一个模板。
 
